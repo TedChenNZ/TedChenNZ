@@ -2,7 +2,7 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import styles from './styles.module.scss';
 
-class componentName extends PureComponent {
+class Pane extends PureComponent {
     render() {
         const { children, ...rest} = this.props; 
         return (
@@ -13,11 +13,11 @@ class componentName extends PureComponent {
     }
 }
 
-componentName.propTypes = {
+Pane.propTypes = {
     children: PropTypes.oneOfType([
         PropTypes.arrayOf(PropTypes.node),
         PropTypes.node
     ])
 };
 
-export default componentName;
+export default Pane;
