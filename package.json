@@ -1,8 +1,8 @@
 {
-  "name": "tedchen",
+  "name": "tedchennz",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tedchennz.github.io/tedchen",
+  "homepage": "https://tedchennz.github.io",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
